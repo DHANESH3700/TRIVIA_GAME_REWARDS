@@ -1,0 +1,15 @@
+[package]
+name = "triviagamerewards"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dhanesh_addr = "8822c17a4c83b5c45ef5e6c5bd15aebd54b3a597134c4b4e526be75597bd9419"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
